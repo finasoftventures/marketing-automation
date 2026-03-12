@@ -1,0 +1,84 @@
+
+> investorraise-autopilot@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+ΓÜá The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+Found 1 warning while optimizing generated CSS:
+
+Γöé   }
+Γöé }
+Γöé @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;450;500;600;700&display=swap');
+Γöå        ^-- @import rules must precede all rules aside from @charset and @layer statements
+Γöå
+Γöé :root {
+Γöé   --background: #FAFAF8;
+
+Γ£ô Compiled successfully in 3.4s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/48) ...
+  Generating static pages using 7 workers (12/48) 
+  Generating static pages using 7 workers (24/48) 
+  Generating static pages using 7 workers (36/48) 
+Γ£ô Generating static pages using 7 workers (48/48) in 446.5ms
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ Γùï /activity
+Γö£ Γùï /analytics
+Γö£ ╞Æ /api/analytics/linkedin
+Γö£ ╞Æ /api/auth/callback
+Γö£ ╞Æ /api/auth/linkedin
+Γö£ ╞Æ /api/auth/linkedin/callback
+Γö£ ╞Æ /api/auth/youtube
+Γö£ ╞Æ /api/auth/youtube/callback
+Γö£ ╞Æ /api/cron/plan
+Γö£ ╞Æ /api/cron/publish
+Γö£ ╞Æ /api/cron/sync-linkedin-analytics
+Γö£ ╞Æ /api/cron/visual
+Γö£ ╞Æ /api/cron/world-scan
+Γö£ ╞Æ /api/cron/write
+Γö£ ╞Æ /api/generate/image
+Γö£ ╞Æ /api/generate/plan
+Γö£ ╞Æ /api/generate/text
+Γö£ ╞Æ /api/linkedin/generate-image
+Γö£ ╞Æ /api/linkedin/org-id
+Γö£ ╞Æ /api/linkedin/post
+Γö£ ╞Æ /api/linkedin/posts
+Γö£ ╞Æ /api/linkedin/profile
+Γö£ ╞Æ /api/linkedin/profile-setup
+Γö£ ╞Æ /api/linkedin/save-post
+Γö£ ╞Æ /api/linkedin/saved-posts
+Γö£ ╞Æ /api/linkedin/token
+Γö£ ╞Æ /api/post/approve
+Γö£ ╞Æ /api/post/publish
+Γö£ ╞Æ /api/settings/connections
+Γö£ ╞Æ /api/youtube/generate-video
+Γö£ ╞Æ /api/youtube/upload
+Γö£ ╞Æ /api/youtube/videos
+Γö£ Γùï /auth/callback
+Γö£ Γùï /brand
+Γö£ Γùï /calendar
+Γö£ Γùï /dashboard
+Γö£ Γùï /linkedin
+Γö£ Γùï /linkedin/setup
+Γö£ Γùï /login
+Γö£ ╞Æ /post/[id]
+Γö£ Γùï /settings
+Γö£ Γùï /settings/connections
+Γö£ Γùï /signup
+Γö£ Γùï /studio
+Γöö Γùï /youtube
+
+
+╞Æ Proxy (Middleware)
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+
