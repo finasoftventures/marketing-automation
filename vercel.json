@@ -1,8 +1,2 @@
 {
-  "crons": [
-    {
-      "path": "/api/cron/sync-linkedin-analytics",
-      "schedule": "0 */4 * * *"
-    }
-  ]
 }
