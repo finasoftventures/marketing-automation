@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
     const params = new URLSearchParams({
         grant_type: "authorization_code",
         code,
-        redirect_uri: "http://localhost:3000/linkedin-callback",
+        redirect_uri: `${process.env.NEXT_PUBLIC_APP_URL}/linkedin-callback`,
         client_id: process.env.LINKEDIN_CLIENT_ID!,
         client_secret: process.env.LINKEDIN_CLIENT_SECRET!,
     });

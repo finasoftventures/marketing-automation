@@ -13,7 +13,7 @@ select cron.schedule(
   '0 */4 * * *',               -- Cron schedule (every 4 hours)
   $$
     select net.http_post(
-      url:='https://your-production-url.vercel.app/api/cron/sync-linkedin-analytics',
+      url:='https://marketing-automation-ten.vercel.app/api/cron/sync-linkedin-analytics',
       headers:='{"Content-Type": "application/json", "Authorization": "Bearer your_cron_secret_here"}'::jsonb
     );
   $$
